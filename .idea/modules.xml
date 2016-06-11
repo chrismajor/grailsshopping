@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GrailsShopping.iml" filepath="$PROJECT_DIR$/.idea/modules/GrailsShopping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GrailsShopping_integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/GrailsShopping_integrationTest.iml" group="GrailsShopping" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GrailsShopping_main.iml" filepath="$PROJECT_DIR$/.idea/modules/GrailsShopping_main.iml" group="GrailsShopping" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GrailsShopping_test.iml" filepath="$PROJECT_DIR$/.idea/modules/GrailsShopping_test.iml" group="GrailsShopping" />
+    </modules>
+  </component>
+</project>
