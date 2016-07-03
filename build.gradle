@@ -41,8 +41,6 @@ dependencyManagement {
 }
 
 dependencies {
-    runtime 'mysql:mysql-connector-java:5.1.29'
-
     compile "org.springframework.boot:spring-boot-starter-logging"
     compile "org.springframework.boot:spring-boot-autoconfigure"
     compile "org.grails:grails-core"
@@ -56,8 +54,9 @@ dependencies {
     compile "org.hibernate:hibernate-ehcache"
     console "org.grails:grails-console"
     profile "org.grails.profiles:web:3.1.8"
+    runtime 'mysql:mysql-connector-java:5.1.29'
     runtime "com.bertramlabs.plugins:asset-pipeline-grails:2.8.2"
-    runtime "com.h2database:h2"
+//    runtime "com.h2database:h2"
     testCompile "org.grails:grails-plugin-testing"
     testCompile "org.grails.plugins:geb"
     testRuntime "org.seleniumhq.selenium:selenium-htmlunit-driver:2.47.1"
