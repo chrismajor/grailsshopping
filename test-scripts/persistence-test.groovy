@@ -1,6 +1,20 @@
 import grailsshopping.*
 
-// def listItems = [new ListItem(itemName: "figure out persistence", createdDate: new Date())]
+def majorList = new MajorList(listName: "brand new list", listItems: [], createdDate: new Date())
+//majorList.save()
 
-def majorList = new MajorList(listName: "brand new list", listItems: [new ListItem(itemName: "figure out persistence", createdDate: new Date())], createdDate: new Date())
+
+majorList.listItems = [new ListItem(itemName: "figure out persistence", createdDate: new Date())]
 majorList.save()
+
+
+println "=========================== MajorList ==========================="
+for (list in MajorList.list()) {
+    println list
+}
+
+println "=========================== ListItem ==========================="
+for (item in ListItem.list()) {
+    println item
+}
+

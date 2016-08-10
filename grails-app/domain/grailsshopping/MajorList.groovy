@@ -1,12 +1,16 @@
 package grailsshopping
 
+import groovy.transform.ToString
+
+@ToString
 class MajorList {
 
-    String listNameWHAT
+    String listName
     Date createdDate
 
     // TODO: ordering of list items
-    Set listItems = []
+//    Set listItems = []
+//    Set listItems
     static hasMany = [listItems: ListItem]
 
     static mapping = {
